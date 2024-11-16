@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer House - Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo Computer House">
+            </div>
+            <div class="search-bar">
+                <select>
+                    <option value="">Todas las categorías</option>
+                    <option value="pcs">PC</option>
+                    <option value="laptops">Laptops</option>
+                    <option value="componentes">Componentes</option>
+                </select>
+                <input type="text" placeholder="¿Qué está buscando?" aria-label="Buscar">
+                <button type="submit"><img src="images/lupa.png"></button>
+            </div>
+            <div class="user-options">
+                <a href="#"><img src="images/usuario.png" alt="Ingresar"></a>
+                <span class="separator"></span>
+                <a href="#"><img src="images/car.png" alt="Carrito"></a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html"class="activo" >Contacto</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contacto</h2>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section> <br></br>
+    <div class="mapita">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.9875168684966!2d-79.8430356240724!3d-6.771372666219635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904cef2803bc59c7%3A0x7352c5f16b53fdc9!2sCOMPUTER%20HOUSE!5e0!3m2!1ses-419!2spe!4v1723958385810!5m2!1ses-419!2spe"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div> <br></br>
+    <footer>
+        <div class="footer-container">
+            <p>REDES SOCIALES OFICIALES</p>
+            <br>
+            <p>Síguenos en:
+                <a href="https://www.facebook.com/computerhouse?locale=es_LA" target="_blank"><img src="images/facebook-icon.png" alt="Facebook"></a>&nbsp;
+                <a href="https://www.instagram.com/computerhouse.pe/" target="_blank"><img src="images/instagram-icon.png" alt="Instagram"></a>&nbsp;
+                <a href="https://x.com/computerhousep?lang=es" target="_blank"><img src="images/x-icon.png" alt="X"></a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
